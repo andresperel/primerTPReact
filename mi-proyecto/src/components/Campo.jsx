@@ -1,3 +1,4 @@
+import "./campo.css";
 function Campo({ label, type, textarea }) {
   return (
     <>

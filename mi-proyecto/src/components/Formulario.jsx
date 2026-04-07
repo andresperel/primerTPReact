@@ -1,5 +1,6 @@
 import Campo from "./Campo";
 import Boton from "./Boton";
+import "./formulario.css";
 
 function Formulario() {
   return (

@@ -1,4 +1,5 @@
-    function Cita({ cita }) {
+import "./cita.css";
+function Cita({ cita }) {
   return (
     <div className="cita">
       <p><span>Mascota:</span> {cita.mascota}</p>

@@ -1,3 +1,4 @@
+import "./contenedor.css";
 function Contenedor({ children }) {
   return <div className="container">{children}</div>;
 }

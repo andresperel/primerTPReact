@@ -1,3 +1,4 @@
+import "./boton.css";
 function Boton({ texto }) {
   return <button type="submit">{texto}</button>;
 }
