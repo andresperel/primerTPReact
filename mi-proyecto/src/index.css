@@ -109,3 +109,22 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+body {
+  margin: 0;
+  font-family: 'Staatliches', cursive;
+  background: linear-gradient(to right, #ec008c, #fc6767);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  font-size: 3rem;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}

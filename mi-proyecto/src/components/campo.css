@@ -1,12 +1,18 @@
 label {
-  margin-top: 10px;
-  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+  font-size: 0.9rem;
 }
 
 input,
 textarea {
-  padding: 8px;
   margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 0.9rem;
+}
+
+textarea {
+  min-height: 80px;
 }

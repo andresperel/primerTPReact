@@ -1,10 +1,14 @@
-.cita {
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  margin-bottom: 15px;
+.cita button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
 }
 
-.cita span {
-  font-weight: bold;
+.cita button:hover {
+  background: #e0e0e0;
 }
