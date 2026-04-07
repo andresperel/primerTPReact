@@ -1,11 +1,8 @@
-import { useState } from "react";
-import Header from "./components/Header";
-import Contenedor from "./components/Contenedor";
-import Formulario from "./components/Formulario";
-import Listado from "./components/Listado";
+import Titulo from "./components/Titulo";
+import Layout from "./components/Layout";
 
 function App() {
-  const [citas] = useState([
+  const citas = [
     {
       id: 1,
       mascota: "Nina",
@@ -21,16 +18,21 @@ function App() {
       fecha: "2023-08-05",
       hora: "09:24",
       sintomas: "Duerme mucho"
+    },
+    {
+      id: 3,
+      mascota: "Floki",
+      dueño: "Ari",
+      fecha: "2023-08-05",
+      hora: "16:15",
+      sintomas: "No está comiendo"
     }
-  ]);
+  ];
 
   return (
     <>
-      <Header />
-      <Contenedor>
-        <Formulario />
-        <Listado citas={citas} />
-      </Contenedor>
+      <Titulo />
+      <Layout citas={citas} />
     </>
   );
 }

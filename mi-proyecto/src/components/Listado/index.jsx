@@ -1,15 +1,15 @@
-import Cita from "./Cita";
-import "./listado.css";
+import Cita from "../Cita";
+import "./Listado.css"
 
 function Listado({ citas }) {
   return (
-    <div className="listado">
+    <>
       <h2>Administra tus citas</h2>
 
-      {citas.map(cita => (
+      {citas.map((cita) => (
         <Cita key={cita.id} cita={cita} />
       ))}
-    </div>
+    </>
   );
 }
 

@@ -1,8 +1,0 @@
-.formulario {
-  width: 400px;
-}
-
-.formulario form {
-  display: flex;
-  flex-direction: column;
-}
